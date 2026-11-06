@@ -1,5 +1,5 @@
 {
-    "name": "xqkeji/xq-com-bootstrap-icons",
+    "name": "xqkeji/xq-res-bootstrap-icons",
     "description": "新齐通用后台管理页面系统的使用的bootstrap-icons的js、css等前端程序的composer包。",
     "type": "library",
     "license": "MIT",
@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-icons/src/":"resource/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"resource/bootstrap-icons/"
                 }]
             }
         ],
@@ -26,13 +26,13 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-icons/src/":"resource/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"resource/bootstrap-icons/"
                 }]
             },
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-icons/src/":"resource/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"resource/bootstrap-icons/"
                 }]
             }
         ],
@@ -40,7 +40,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-com-bootstrap-icons/src/":"resource/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"resource/bootstrap-icons/"
                 }]
             }
         ]
