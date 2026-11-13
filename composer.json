@@ -18,7 +18,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/assets/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/asset/bootstrap-icons/"
                 }]
             }
         ],
@@ -26,13 +26,13 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/assets/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/asset/bootstrap-icons/"
                 }]
             },
             {
                 "cmd":["xqkeji\\composer\\Asset","copyDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/assets/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/asset/bootstrap-icons/"
                 }]
             }
         ],
@@ -40,7 +40,7 @@
             {
                 "cmd":["xqkeji\\composer\\Asset","rmDirs"],
                 "param":[{
-                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/assets/bootstrap-icons/"
+                    "vendor/xqkeji/xq-res-bootstrap-icons/src/":"www/asset/bootstrap-icons/"
                 }]
             }
         ]
